@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SignUp.css">
+    <title>Register</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <a href="../Home Page/Index.html" id="logo">
+                <img src="https://uidesign.gbtcdn.com/GB/images/promotion/2019/a_evan/Gearbest/logo_gearbest.png"
+                    alt="Gearbest">
+            </a>
+        </div>
+        <div id="middle">
+
+            <ul class="myList">
+                <li class="myListItem">
+                    <a href="../Sign In Page/SignIn.html">SIGN IN</a>
+                </li>
+                <li class="myListItem">
+                    <a href="#">REGISTER</a>
+                </li>
+            </ul>
+            <form id="myForm">
+                <div class="myForm">
+
+                    <div class="input">
+                        <input type="email" class="form" name="email" id="email" placeholder="Email">
+                    </div>
+                    <div class="input">
+                        <input type="password" class="form" name="password" id="password" placeholder="Create password">
+                    </div>
+                    <div class="input">
+                        <input type="password" class="form" name="password" id="Re-password"
+                            placeholder="Re-type Password">
+                    </div>
+                    <div class="input">
+                        <input type="text" name="text" id="js-verify" placeholder="Enter the code">
+                        <label for="js-verify" id="ljs-verify">
+                            <img src="https://login.gearbest.com/captcha/default?0.20731949315883424" alt="">
+                        </label>
+                    </div>
+                    <div class="input">
+                        <span class="checkbox">
+                            <input type="checkbox" id="isCheck">
+                        </span>
+                        <span class="agreement"> " I agree to Gearbest "
+                            <a target="_special" href="https://www.gearbest.com/about/terms-and-conditions.html"> Terms
+                                and
+                                conditions</a> " and "
+                            <a target="_special" href="https://www.gearbest.com/about/privacy-policy.html">Privacy
+                                policies.</a>
+                        </span>
+                    </div>
+                    <div class="input text">
+                        Tip: To maximize online security, please do not reuse passwords or choose easy to guess ones on
+                        Gearbest.
+                    </div>
+                    <div class="input submit">
+                        <input type="submit" value="Register" id="register">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="./Signup.js"></script>
+
+</html>

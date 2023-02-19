@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: OpenSans,Arial, Helvetica, sans-serif;
+}
+
+#header{
+    /* background-color: red; */
+    height: 90px;
+    width: 100%;
+}
+#header>#logo{
+    max-width: 270px;
+    max-height: 90px;
+    /* background-color: red; */
+    display: block;
+    margin: 15px 100px;
+    padding: 10px;
+}
+#header>#logo>img{
+    width: 90%;
+    
+}
+#middle{
+    width: 430px;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 10%)
+}
+.myList{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+.myListItem{
+    list-style-type: none;
+}
+.myListItem a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #666;
+    font-weight: bolder;
+}
+.myListItem:nth-child(2){
+    margin-left: 50px
+}
+
+.input{
+    /* background-color: red; */
+    margin: 15px 0;
+    width: 100%;
+    display: block;
+}
+.form{
+    font-size: 18px;
+    padding: 7px 0;
+    width: 100%;
+    border: 1px solid rgba(187, 187, 187, 0.799);
+    padding-left: 8px;
+    box-sizing: border-box;
+}
+.form::placeholder{
+    color: rgba(175, 172, 172, 0.772);
+}
+.submit{
+    margin: 40px 0;
+}
+#register{
+    display: block;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(255, 217, 0);
+    border: none;
+    cursor: pointer;
+}
+#space{
+    display: flex;
+    justify-content: space-between;
+}
+#space a{
+    color: #666;
+}
+#isCheck{
+    width: 18px;
+    height: 18px;
+}

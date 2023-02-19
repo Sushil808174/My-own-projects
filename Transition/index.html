@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #171d2833;
+            height: 100vh;
+            
+        }
+        div{
+            padding-top: 20px;
+            background-color: aqua;
+            font-size: 20px;
+            width: 130px;
+            height: 60px;
+            text-align: center;
+            box-sizing: border-box;
+            border-radius: 20px;
+            cursor: pointer;
+            transition:color 1s, transform .15s ease-in-out;
+        }
+
+        div:hover{
+           box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+           background-color: aquamarine;
+           color: white;
+           transform: rotate(360deg);
+           border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div>Button</div>
+</body>
+</html>

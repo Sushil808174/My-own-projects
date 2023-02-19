@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #171d2833;
+            height: 100vh;
+            
+        }
+        div{
+            padding-top: 20px;
+            background-color: aqua;
+            font-size: 20px;
+            width: 130px;
+            height: 60px;
+            text-align: center;
+            position: relative;
+            box-sizing: border-box;
+            border-radius: 20px;
+            cursor: pointer;
+           animation-name: example;
+           animation-duration: 4s;
+           animation-iteration-count: 5;
+           box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+        }
+        @keyframes example{
+            0%{background-color: aqua;left: -200px;top: 0px;}
+            25%{background-color: rgb(49, 226, 43);left: 200px;top: 0px;}
+            50%{background-color: rgb(33, 20, 182);left: 200px;top: 200px;}
+            75%{background-color: blueviolet;left: -200px;top: 200px;}
+            100%{background-color: rgb(226, 174, 43);left: -200px;top: 0px;}
+        }
+
+    </style>
+</head>
+<body>
+    <div>Button</div>
+</body>
+</html>
