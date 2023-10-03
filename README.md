@@ -5,4 +5,5 @@
 - CSS
 - JavaScript
 
-## There are some small projects you can find here
+
+There are lots of small project that i have build with the help of html css and javascript. Here you can find some project that we are using in real life.
